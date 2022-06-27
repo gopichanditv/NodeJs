@@ -5,15 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node src/modules/3.external.js",
     "gopi-start": " node app.js"
   },
   "keywords": [],
   "author": "Gopichand",
   "license": "ISC",
   "dependencies": {
+    "create-react-app": "^5.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.4.0",
     "nodemon": "^2.0.18"
   }
 }
